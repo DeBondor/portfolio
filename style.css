@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('fonts/ClashDisplay-Bold.otf') format('opentype'),
+    url('fonts/ClashDisplay-Bold.otf') format('opentype');
+}
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'ClashDisplay', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'ClashDisplay', sans-serif;
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fade-out {
+    animation: fadeOut 2s;
+}
+
+button {
+    font-family: 'ClashDisplay', sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    transition: color 0.5s ease, opacity 0.5s ease, background-color 0.5s ease, transform 0.4s ease;
+    border-radius: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
