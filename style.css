@@ -93,3 +93,26 @@ a {
         font-size: 1em;
     }
 }
+
+@media screen and (max-width: 360px) {
+    body {
+        font-size: 16px;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
