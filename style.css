@@ -69,3 +69,27 @@ p {
 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    button {
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
