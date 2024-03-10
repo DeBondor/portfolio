@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #000000;
+    background-color: #0a0a0a;
     margin: 0;
     padding: 0;
     font-family: 'ClashDisplay', sans-serif;
@@ -39,8 +39,8 @@ button {
     font-family: 'ClashDisplay', sans-serif;
     font-size: 1.5em;
     color: #ffffff;
-    background-color: #000000;
-    border: none;
+    background-color: #0a0a0a;
+    border: 1px solid #ffffff;
     cursor: pointer;
     padding: 10px 20px;
     margin: 20px 10px;
@@ -49,12 +49,12 @@ button {
 }
 
 button:last-child {
-    margin-right: 0;
+    margin-right: 5px;
 }
 
 button:hover {
     background-color: white;
-    color: #000000;
+    color: #0a0a0a;
     transform: scale(1.1);
 }
 
