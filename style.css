@@ -93,6 +93,9 @@ a {
     p {
         font-size: 1em;
     }
+    #circle {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -115,6 +118,9 @@ a {
 
     p {
         font-size: 0.8em;
+    }
+    #circle {
+        display: none;
     }
 }
 body, html {
