@@ -4,13 +4,22 @@
     url('fonts/ClashDisplay-Bold.otf') format('opentype');
 }
 
+a {
+    text-decoration: none;
+}
+
+h1, p, button {
+    font-family: 'ClashDisplay', sans-serif;
+    color: #ffffff;
+    z-index: 1000;
+    position: relative;
+}
+
 h1 {
     font-size: 8em;
     text-align: center;
     margin: 0;
     padding: 0;
-    color: #ffffff;
-    font-family: 'ClashDisplay', sans-serif;
     font-weight: bold;
 }
 
@@ -37,14 +46,12 @@ body {
 }
 
 button {
-    font-family: 'ClashDisplay', sans-serif;
     font-size: 1.5em;
-    color: #ffffff;
     background-color: #0a0a0a;
     border: 1px solid #ffffff;
     cursor: pointer;
     padding: 10px 20px;
-    margin: 20px 10px;
+    margin: 25px 10px;
     transition: color 0.5s ease, opacity 0.5s ease, background-color 0.5s ease, transform 0.4s ease;
     border-radius: 10px;
 }
@@ -59,16 +66,14 @@ button:hover {
     transform: scale(1.1);
 }
 
+button:active {
+    transform: scale(0.9);
+}
 p {
     font-size: 1.5em;
-    color: #ffffff;
     text-align: center;
     margin: 0;
     padding: 0;
-}
-
-a {
-    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -148,9 +153,4 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-}
-
-.button, h1, p {
-    z-index: 1000;
-    position: relative;
 }
